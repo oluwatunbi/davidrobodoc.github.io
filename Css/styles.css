@@ -1,0 +1,156 @@
+
+html,
+body,
+header{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	overflow-x: hidden;
+
+}
+
+
+
+
+.jumbotron{
+	height:100vh;
+	background-image:url("../images/astronaut-origin.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	border-radius:0px !important;
+	color:#ffff;
+	margin-bottom:0px;
+}
+
+
+.intro{
+	margin-top:-30px;
+}
+
+.intro h1{
+	margin-top:200px;
+	font-size:9.5vw;
+	font-family:'overpass', sans-serif;
+	font-weight:900;
+	-webkit-background-clip: text;
+    background-clip: text;
+	 -webkit-text-fill-color: transparent;
+     background-attachment: fixed;
+
+}
+
+ .intro:nth-child(1) h1{
+ 	
+	background-image: url("../images/homebackground.jpg");
+}
+
+.intro h3{
+	color:#000;
+	font-family:'pacifico', cursive;
+	font-size:2.5rem;
+}
+
+.fa{
+
+	margin-left:20px;
+	transform:scale(1.5,1.5);
+}
+
+
+
+.about-me{
+	padding-top:30px;
+	height:100vh;
+	background:linear-gradient(90deg, hsl(210, 78%, 56%) 0%, hsl(146, 68%, 55%) 100%);
+	font-size:1.5rem;
+	font-family:'Raleway', sans-serif;
+
+}
+
+@media only screen and (max-width:400px) {
+	.about-me{
+		font-size:1rem;
+	}
+
+	.thumbnail img{
+		margin-right:0px;
+		margin-left:5px;
+	}
+
+}
+
+.content{
+	margin-top:30px;
+}
+
+
+.project-header{
+	padding-top:50px;
+	padding-bottom:20px;
+	font-family:'pacifico', cursive;
+}
+
+
+.thumbnail img {
+	width:800px !important;
+	max-height:300px !important;
+	border:1px solid #fff 800px;
+}
+
+.project-wrapper{
+	padding-left:20px;
+	padding-right:10px;
+	margin-bottom:50px;
+}
+
+
+.contact{
+	margin-top:20px;
+	background-color: #363636;
+	color:#fff;
+	padding-bottom:20px;
+
+}
+
+.contact-header{
+	padding-top:30px;
+	font-family:'pacifico', cursive;
+}
+
+.contact-form{
+    width:20rem;
+    margin-top:50px;
+	margin-left:auto !important;
+	margin-right:auto !important;	
+}
+
+.contact-mail{
+font-size:2em;
+font-family:'pacifico', cursive;
+margin-top:30px;
+margin-bottom:30px;	
+}
+
+.footer{
+	background-color:#000;
+	color:grey;
+	height:150px;
+}
+
+.arrow-up{
+	width:2rem;
+
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+
+.arrow-style{
+	position:relative;
+	margin-top:-20px;
+}
+
+.footer-info{
+	margin-top:30px;
+}
+
