@@ -14,7 +14,7 @@ header{
 
 .jumbotron{
 	height:100vh;
-	background-image:url("./images/astronaut-origin.JPG");
+	background-image:url("../Images/astronaut-origin.jpg");
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -42,7 +42,7 @@ header{
 
  .intro:nth-child(1) h1{
  	
-	background-image: url("../images/homebackground.JPG");
+	background-image: url("../Images/homebackground.jpg");
 }
 
 .intro h3{
